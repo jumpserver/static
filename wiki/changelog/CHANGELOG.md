@@ -1,7 +1,10 @@
 ## v0.3.1
 修复bug为主
 
+
 * (整合) Tornado和Django框架
+
+* (修复) 日志审计中获取来源IP bug
 
 * (修复) sudo 命令小写all 引起的推送失败(map)
 
@@ -16,6 +19,8 @@
 * (修复) “阻断”bug
 
 * (修复) WebTerminal复制粘贴功能
+
+* (更改) 通过jumpserver.conf来进行配置访问ip和端口
 
 * (更改) 用户下载私钥文件后删除
 
