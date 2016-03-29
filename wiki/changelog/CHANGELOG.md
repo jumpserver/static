@@ -1,44 +1,51 @@
 ## v0.3.1
 修复bug为主
 
+* (修复) 数据库超时bug   By @kid143
 
-* (整合) Tornado和Django框架
+* (修复) 命令记录不准确bug   By @kelianchun
 
-* (修复) 批量命令回车bug
+* (修复) 连接断开提示Index out of ..bug   By @kelianchun
 
-* (修复) 日志审计中获取来源IP bug
+* (整合) Tornado和Django框架，只需要启动一个端口   By @liuzheng712
 
-* (修复) sudo 命令小写all 引起的推送失败(map)
+* (修复) 批量命令回车bug    By @ibuler
 
-* (修复) 定期处理在线用户的失效连接
+* (修复) 日志审计中获取来源IP bug    By @liuzheng712
 
-* (修复) freebsd 推送带sudo规则的用户时 , sudo　路径引发的问题
+* (修复) sudo 命令小写all 引起的推送失败(map)   By   By @yumaojun03
+
+* (修复) 定期处理在线用户的失效连接   By @ibuler
+
+* (修复) freebsd 推送带sudo规则的用户时 , sudo　路径引发的问题     By @yumaojun03
  
-* (修复) 进入系统内部 bug
+* (修复) 进入系统内部 bug   By @ibuler
 
-* (修复) 禁用用户还可以登录跳板机bug
+* (修复) 特殊编码导致web terminal和录像挂掉bug   By @liuzheng712 @kelianchun
 
-* (修复) “阻断”bug
+* (修复) 禁用用户还可以登录跳板机bug   By @ibuler
 
-* (修复) WebTerminal复制粘贴功能
+* (修复) “阻断”bug   By @liuzheng712
 
-* (更改) 文件上传路径和目录结构
+* (修复) WebTerminal复制粘贴功能   By @liuzheng712
 
-* (更改) 启动脚本
+* (更改) 文件上传路径和目录结构   By @ibuler
+
+* (更改) 启动脚本   By   @ibuler
 
 * (更改) 配置文件
 
 * (更改) 配置文件注明ws
 
-* (更改) 通过jumpserver.conf来进行配置访问ip和端口
+* (更改) 通过jumpserver.conf来进行配置访问ip和端口   By @liuzheng712
 
-* (更改) 用户下载私钥文件后删除
+* (更改) 用户下载私钥文件后删除   By @liuzheng712
 
-* (更改) 强制用户使用key登录跳板机
+* (更改) 强制用户使用key登录跳板机   By   @ibuler
 
-* (更改) 统一一些文案
+* (更改) 统一一些文案   By   @ibuler
 
-* (更改) 推送系统用户时，仅选择推送密钥时，不再推送key
+* (更改) 推送系统用户时，仅选择推送密钥时，不再推送key    By @yumaojun03
 
 ## v0.3.0
 对核心代码进行了完整的重构
