@@ -1,37 +1,37 @@
 ## v0.3.1
 修复bug为主
 
-* (修复) 数据库超时bug   By @kid143
+* (修复) 数据库超时bug    @kid143
 
-* (修复) 命令记录不准确bug   By @kelianchun
+* (修复) 命令记录不准确bug    @kelianchun
 
-* (修复) 连接断开提示Index out of ..bug   By @kelianchun
+* (修复) 连接断开提示Index out of ..bug    @kelianchun
 
-* (整合) Tornado和Django框架，只需要启动一个端口   By @liuzheng712
+* (整合) Tornado和Django框架，只需要启动一个端口    @liuzheng712
 
-* (修复) 批量命令回车bug    By @ibuler
+* (修复) 批量命令回车bug     @ibuler
 
-* (修复) 日志审计中获取来源IP bug    By @liuzheng712
+* (修复) 日志审计中获取来源IP bug     @liuzheng712
 
-* (修复) sudo 命令小写all 引起的推送失败(map)   By   By @yumaojun03
+* (修复) sudo 命令小写all 引起的推送失败(map)    @yumaojun03
 
-* (修复) 定期处理在线用户的失效连接   By @ibuler
+* (修复) 定期处理在线用户的失效连接    @ibuler
 
-* (修复) freebsd 推送带sudo规则的用户时 , sudo　路径引发的问题     By @yumaojun03
+* (修复) freebsd 推送带sudo规则的用户时 , sudo　路径引发的问题      @yumaojun03
  
-* (修复) 进入系统内部 bug   By @ibuler
+* (修复) 进入系统内部 bug    @ibuler
 
-* (修复) 特殊编码导致web terminal和录像挂掉bug   By @liuzheng712 @kelianchun
+* (修复) 特殊编码导致web terminal和录像挂掉bug    @liuzheng712 @kelianchun
 
-* (修复) 禁用用户还可以登录跳板机bug   By @ibuler
+* (修复) 禁用用户还可以登录跳板机bug    @ibuler
 
-* (修复) “阻断”bug   By @liuzheng712
+* (修复) “阻断”bug    @liuzheng712
 
-* (修复) WebTerminal复制粘贴功能   By @liuzheng712
+* (修复) WebTerminal复制粘贴功能    @liuzheng712
 
-* (更改) 文件上传路径和目录结构   By @ibuler
+* (更改) 文件上传路径和目录结构    @ibuler
 
-* (更改) 启动脚本   By   @ibuler
+* (更改) 启动脚本      @ibuler
 
 * (更改) 配置文件
 
